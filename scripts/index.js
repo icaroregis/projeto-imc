@@ -4,8 +4,8 @@ import notANumber from "./notANumber.js";
 import IMC from "./imc.js";
 
 const form = document.querySelector("form");
-const inputWeight = document.querySelector("#weight");
-const inputHeight = document.querySelector("#height");
+export const inputWeight = document.querySelector("#weight");
+export const inputHeight = document.querySelector("#height");
 
 form.onsubmit = (event) => {
   event.preventDefault();

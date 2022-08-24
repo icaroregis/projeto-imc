@@ -6,4 +6,6 @@ export const alertError = {
   close() {
     alertError.element.classList.remove("open");
   }
-} 
+}
+
+
